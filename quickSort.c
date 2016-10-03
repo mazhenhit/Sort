@@ -13,8 +13,6 @@ void swap(int *a, int *b)
 int patition(int *num, int left, int right)
 {
 	int tmp = num[right];
-	int i = left - 1;
-	int j;
 
 	while(left < right)
 	{
