@@ -14,6 +14,15 @@ int main()
         a[i] = rand() % 10;
 	}
 
+    for(i = 0; i < 10; i++)
+	{
+        printf("%d\t", a[i]);
+	}
+    
+    printf("\n");
+
+    //排序
+
 	for(i = 0; i < 10; i++)
 	{
         printf("%d\t", a[i]);
