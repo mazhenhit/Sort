@@ -2,32 +2,25 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 int main()
 {
     int i = 0;
-    int a[10] = {0};
-
-    srand(time(0));
-
-	for(i = 0; i < 10; i++)
-	{
-        a[i] = rand() % 10;
-	}
+    int a[] = {1, 4, 5, 9, 0, 3, 6, 2, 8, 7};
 
     for(i = 0; i < 10; i++)
-	{
+    {
         printf("%d\t", a[i]);
-	}
-    
+    }
     printf("\n");
 
-    //排序
+    //sort
 
-	for(i = 0; i < 10; i++)
-	{
+
+    for(i = 0; i < 10; i++)
+    {
         printf("%d\t", a[i]);
-	}
-    
+    }
     printf("\n");
 
     return 0;
